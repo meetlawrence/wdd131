@@ -61,7 +61,7 @@
     font-family: inherit;
     font-size: 1rem;
     color: var(--ink2);
-    background-color: var(--ink); /* White background for inputs */
+    background-color: var(--ink); 
     transition: border-color 0.3s;
 }
 
@@ -112,7 +112,6 @@
 }
 
 .newsletter-input-group button {
-    /* Override explore button background for better contrast on dark background */
     background-color: var(--accent); 
     color: var(--ink);
     border: none;

@@ -1,72 +1,211 @@
 /*
 |--------------------------------------------------------------------------
-| REFERENCES PAGE - SMALL DISPLAY (DEFAULT/MOBILE)
+| PAGE-SPECIFIC STYLES (REFERENCES.CSS)
 |--------------------------------------------------------------------------
+| This file styles the references.html page's unique content (Hero and Attributions) 
+| and relies on the global (base.css) file for Header, Footer, and utility styles.
 */
 
-/* Hero Section */
-.hero-references {
-    /* Use a simple, clean, or documentation-themed image */
-    background: url("../images/img/references-hero.jpg") no-repeat center center/cover;
+.hero-text .dream, 
+.hero-text .nigeria, 
+.hero-text .info,
+.hero-text h1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
-/* REFERENCES STYLES */
-.references-section {
-    padding: 4rem 1rem;
+
+.container {
+    padding-top: 60px; 
+    padding-left: 1rem;
+    padding-right: 1rem;
     max-width: var(--maxw);
     margin: 0 auto;
 }
 
-.references-section h2 {
-    padding-left: 0; 
-    padding-right: 0;
-    margin-bottom: 2rem;
-    color: var(--nav);
+.container > section:first-of-type {
+    padding: 6rem 2rem 4rem; 
     text-align: center;
+    background-color: var(--secondary);
+    border-radius: var(--radius);
+    margin-top: 1.5rem; 
+    margin-bottom: 2rem;
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.hero-text .dream {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--nav); 
+    margin-bottom: 0.5rem;
+}
+
+/* Main title */
+.hero-text .nigeria {
+    font-size: clamp(3rem, 8vw, 5rem);
+    color: var(--accent); 
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+/* Description text */
+.hero-text .info {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--ink2); 
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the 'VIEW SOURCES' button */
+.explore-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: var(--nav); 
+    color: var(--ink); 
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: var(--accent); 
+    transform: translateY(-2px);
+    color: var(--ink2); 
+}
+
+/* --- 3. References Content Section (Mobile) --- */
+
+.references-section {
+    padding: 1rem 1rem 4rem; /* Use 1rem for mobile padding */
+}
+
+/* Reset padding on H2/H3 for this section */
+.references-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: var(--nav);
+    padding: 0; /* Reset global padding */
 }
 
 .reference-category {
-    background-color: var(--secondary);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 2rem;
-    margin-bottom: 1.5rem;
-    box-shadow: var(--shadow);
+    background-color: #ffffff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    transition: box-shadow 0.3s ease;
+}
+
+.reference-category:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .reference-category h3 {
-    color: var(--accent);
     font-size: 1.25rem;
-    margin-bottom: 1rem;
+    font-weight: 800;
+    color: var(--accent); 
+    margin-bottom: 1.5rem;
     border-bottom: 2px solid var(--border);
-    padding-bottom: 0.5rem;
-    padding-left: 0; 
-    padding-right: 0;
+    padding: 0 0 0.5rem 0; /* Reset global padding */
 }
 
 .reference-category ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .reference-category li {
     font-size: 1rem;
-    color: #444;
-    margin-bottom: 0.75rem;
-    line-height: 1.4;
-    border-left: 3px solid var(--nav);
-    padding-left: 1rem;
+    line-height: 1.6;
+    color: var(--ink2);
+    padding: 0.75rem 0;
+    border-bottom: 1px dashed var(--border);
+    padding-left: 0;
+    padding-right: 0;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
 }
 
-/*
-|--------------------------------------------------------------------------
-| REFERENCES PAGE - LARGE DISPLAY (DESKTOP OVERRIDES)
-|--------------------------------------------------------------------------
-*/
+.reference-category li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Styling the bold resource title */
+.reference-category li strong {
+    font-weight: 700;
+    color: var(--nav);
+    display: block;
+}
+
+
 @media (min-width: 1200px) {
-    .references-section {
-        padding: 6rem 4rem;
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
+
+    .references-section {
+        padding: 4rem 0; 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        max-width: 100%; 
+    }
+
     .references-section h2 {
-        text-align: left;
+        grid-column: 1 / -1; /* Span all columns */
+        margin-bottom: 3rem;
+    }
+    
+    .reference-category li {
+        display: block; 
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word; 
+        
+
+        gap: initial;
+        align-items: initial;
+    }
+    
+    .reference-category li a {
+        /* Aggressive break for very long URLs */
+        word-break: break-all;
+        display: inline;
+        line-height: 1.5;
+        margin-top: 0.25rem; /* Small space after the title */
+    }
+
+    .reference-category li strong {
+
+        display: block; 
+        font-weight: 700;
+        color: var(--nav);
+        margin-bottom: 0.25rem; /* Add a small space under the title */
     }
 }

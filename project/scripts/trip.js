@@ -128,7 +128,7 @@ function loadTripContent() {
         if (h2) {
              h2.insertAdjacentHTML('afterend', itineraryCardsHTML);
         } else {
-            // Fallback: If h2 isn't found, just set the innerHTML (losing the h2)
+            // Fallback: If h2 isn't found, set the innerHTML
             itinerarySection.innerHTML += itineraryCardsHTML;
         }
     }

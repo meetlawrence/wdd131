@@ -36,7 +36,6 @@
     pointer-events: none;
 }
 
-/* Make sure hero content stays on top */
 .hero-text,
 .social-icons {
     position: relative;
@@ -127,9 +126,8 @@
 
 .card-content img {
     width: 100%;
-    /* Set a fixed height for consistency */
+    /* Sets a fixed height for consistency */
     height: 250px; 
-    /* The max-height property is now redundant, but object-fit: cover is essential */
     object-fit: cover; 
     border-radius: var(--radius);
     display: block;
@@ -348,10 +346,8 @@
     }
 
         .destination-text {
-        /* Adjust height for the wider desktop layout */
         height: 400px; 
         overflow-y: auto;
-        /* When using grid, you must remove the mobile centering: */
         align-items: flex-start; 
         text-align: left;
     }
@@ -389,7 +385,6 @@
         display: block;
     }
 
-
     .links {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -399,7 +394,6 @@
         padding: 1rem 1.25rem 1.25rem;
         margin: 0;
     }
-
 
     .links li {
         margin: .6rem 0;

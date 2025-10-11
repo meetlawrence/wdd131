@@ -1,14 +1,8 @@
-/**
- * thanks.js
- * Handles extracting and displaying form data on the thank-you page.
- */
-
 document.addEventListener('DOMContentLoaded', function() {
-    // Get the query string from the URL (everything after the '?')
     const params = new URLSearchParams(window.location.search);
     const summaryDetails = document.getElementById('summary-details');
 
-    // Object to hold cleaned, readable data for display
+    // Object to hold data for display
     const data = {};
 
     // Helper function to capitalize the first letter of a string
@@ -18,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function getLabel(key) {
         switch (key) {
             case 'fullName':
-                return 'Full Name';
+               return 'Full Name';
             case 'email':
                 return 'Email Address';
             case 'phone':
@@ -97,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         summaryDetails.appendChild(ul);
     } else {
-        // Handle case where no form data was passed (e.g., accessed page directly)
+        // Handle case where no form data was passed
         summaryDetails.innerHTML = '<p>It looks like you navigated here directly. Please use the <a href="index.html#form-section">Trip Inquiry Form</a> to plan your adventure!</p>';
     }
 });

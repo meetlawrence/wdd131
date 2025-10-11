@@ -36,8 +36,6 @@ const teamData = [
 
 /**
  * Generates the HTML for the social icons in a team member card.
- * @param {Array<Object>} socialArray - Array of social link objects.
- * @returns {string} HTML string of social links.
  */
 function createSocialLinks(socialArray) {
     // The target="_blank" attribute is added here to open the link in a new tab.
@@ -48,8 +46,6 @@ function createSocialLinks(socialArray) {
 
 /**
  * Generates the HTML string for a single team member card.
- * @param {object} member - The data object for a single team member.
- * @returns {string} The HTML string for the article element.
  */
 function createTeamCard(member) {
     const socialLinks = createSocialLinks(member.social);

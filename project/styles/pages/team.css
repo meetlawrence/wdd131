@@ -4,11 +4,7 @@
 |--------------------------------------------------------------------------
 */
 
-/* Hero Section */
-.hero-team {
-    /* Use an image that suggests collaboration or a group */
-    background: url("../images/img/team-hero.jpg") no-repeat center center/cover;
-}
+
 
 /* TEAM GRID STYLES */
 .team-grid-section {
@@ -44,7 +40,7 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
-    object-position: top center; /* Focus on face/shoulders */
+    object-position: top center; 
     display: block;
 }
 

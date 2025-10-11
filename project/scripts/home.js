@@ -1,4 +1,3 @@
-// scripts/home.js
 
 const destinationPlaces = [
     {
@@ -33,14 +32,14 @@ const destinationPlaces = [
     }
 ];
 
-// Key for localStorage persistence
+// Key for localStorage
 const DESTINATION_INDEX_KEY = 'lastDestinationIndex';
 
 let index = 0;
 let rotationInterval;
 
 // -------------------------------------------------------------------
-// NEW: LOCAL STORAGE LOAD FUNCTION
+// LOCAL STORAGE LOAD FUNCTION
 // -------------------------------------------------------------------
 
 /**
@@ -82,7 +81,7 @@ function updateDestination() {
     // 1. Calculate the index for the *next* slide
     index = (index + 1) % destinationPlaces.length;
 
-    // 2. NEW: Save the calculated *next* index to localStorage for persistence
+    // 2. Save the calculated *next* index to localStorage for persistence
     localStorage.setItem(DESTINATION_INDEX_KEY, index.toString());
 }
 
@@ -152,7 +151,7 @@ function createFestivalCard(festivals) {
 // Run all necessary initialization after page structure is loaded
 window.addEventListener('DOMContentLoaded', () => {
     
-    // 1. NEW: Load the last index from localStorage to set the starting point
+    // 1. Load the last index from localStorage to set the starting point
     loadLastDestinationIndex();
     
     // 2. Destination Slide Initialization
