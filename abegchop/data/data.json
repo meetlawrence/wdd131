@@ -1,0 +1,102 @@
+{
+  "categories": [
+    { "id": "all", "name": "All", "emoji": "🍽️" },
+    { "id": "rice", "name": "Rice Dishes", "emoji": "🍚" },
+    { "id": "snacks", "name": "Snacks", "emoji": "🌯" },
+    { "id": "swallow", "name": "Swallow", "emoji": "🥘" },
+    { "id": "drinks", "name": "Drinks", "emoji": "🥤" },
+    { "id": "breakfast", "name": "Breakfast", "emoji": "🥞" }
+  ],
+  "vendors": [
+    {
+      "id": "1",
+      "name": "Mama Put Supreme",
+      "rating": 4.8,
+      "deliveryTime": "20-30 min",
+      "image": "https://images.unsplash.com/photo-1664993101841-036f189719b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqb2xsb2YlMjByaWNlJTIwTmlnZXJpYW4lMjBmb29kfGVufDF8fHx8MTc2OTAwMzc4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "foods": [
+        {
+          "id": "f1",
+          "name": "Jollof Rice & Chicken",
+          "price": 800,
+          "category": "rice",
+          "image": "https://images.unsplash.com/photo-1664993101841-036f189719b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqb2xsb2YlMjByaWNlJTIwTmlnZXJpYW4lMjBmb29kfGVufDF8fHx8MTc2OTAwMzc4N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "id": "f2",
+          "name": "Fried Rice Special",
+          "price": 700,
+          "category": "rice",
+          "image": "https://images.unsplash.com/photo-1679735386220-e8888925676e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmllZCUyMHJpY2UlMjBjaGlja2VufGVufDF8fHx8MTc2ODk4NjIwNHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "id": "f3",
+          "name": "Plantain & Beans",
+          "price": 500,
+          "category": "breakfast",
+          "image": "https://images.unsplash.com/photo-1765584830084-eb3d2268b263?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmllZCUyMHBsYW50YWlufGVufDF8fHx8MTc2ODk5MzUwOHww&ixlib=rb-4.1.0&q=80&w=1080"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Calabar Kitchen",
+      "rating": 4.6,
+      "deliveryTime": "25-35 min",
+      "image": "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwc291cCUyMGZ1ZnV8ZW58MXx8fHwxNzY5MDAzNzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "foods": [
+        {
+          "id": "f4",
+          "name": "Edikang Ikong Soup",
+          "price": 1200,
+          "category": "swallow",
+          "image": "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwc291cCUyMGZ1ZnV8ZW58MXx8fHwxNzY5MDAzNzkwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "id": "f5",
+          "name": "Afang Soup & Fufu",
+          "price": 1000,
+          "category": "swallow",
+          "image": "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwc291cCUyMGZ1ZnV8ZW58MXx8fHwxNzY5MDAzNzkwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "id": "f6",
+          "name": "Pepper Soup",
+          "price": 600,
+          "category": "swallow",
+          "image": "https://images.unsplash.com/photo-1765584830134-12d879ad13bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZm9vZCUyMG1lYXR8ZW58MXx8fHwxNzY5MDAzNzg5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Quick Bites",
+      "rating": 4.7,
+      "deliveryTime": "15-25 min",
+      "image": "https://images.unsplash.com/photo-1621628017636-d1c2009fc27c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaGF3YXJtYSUyMHdyYXB8ZW58MXx8fHwxNzY4OTMzNjg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "foods": [
+        {
+          "id": "f7",
+          "name": "Chicken Shawarma",
+          "price": 900,
+          "category": "snacks",
+          "image": "https://images.unsplash.com/photo-1621628017636-d1c2009fc27c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaGF3YXJtYSUyMHdyYXB8ZW58MXx8fHwxNzY4OTMzNjg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "id": "f8",
+          "name": "Beef Shawarma",
+          "price": 1000,
+          "category": "snacks",
+          "image": "https://images.unsplash.com/photo-1621628017636-d1c2009fc27c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaGF3YXJtYSUyMHdyYXB8ZW58MXx8fHwxNzY4OTMzNjg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "id": "f9",
+          "name": "Spring Rolls",
+          "price": 400,
+          "category": "snacks",
+          "image": "https://images.unsplash.com/photo-1621628017636-d1c2009fc27c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaGF3YXJtYSUyMHdyYXB8ZW58MXx8fHwxNzY4OTMzNjg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        }
+      ]
+    }
+  ]
+}
