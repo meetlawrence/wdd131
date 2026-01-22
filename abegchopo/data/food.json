@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Jollof Rice & Chicken",
+    "price": 1500,
+    "vendor": "Mama Put Central",
+    "category": "Rice",
+    "description": "Classic smoky Nigerian jollof served with a large piece of fried chicken.",
+    "image": "images/food/jollof-chicken.webp"
+  },
+  {
+    "id": 2,
+    "name": "Pounded Yam & Egusi",
+    "price": 1800,
+    "vendor": "Mama Put Central",
+    "category": "Swallow",
+    "description": "Smooth pounded yam served with rich Egusi soup containing beef and shaki.",
+    "image": "images/food/egusi-yam.webp"
+  },
+  {
+    "id": 3,
+    "name": "White Rice & Ayamase",
+    "price": 1600,
+    "vendor": "Mama Put Central",
+    "category": "Rice",
+    "description": "Ofada-style green pepper sauce with diced offals and boiled egg.",
+    "image": "images/food/ayamase.webp"
+  },
+  {
+    "id": 4,
+    "name": "Beef Suya (Full Portion)",
+    "price": 2000,
+    "vendor": "The Suya Spot",
+    "category": "Protein",
+    "description": "Spiced grilled beef served with onions, cabbage, and extra yaji spice.",
+    "image": "images/food/beef-suya.webp"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Shawarma",
+    "price": 1500,
+    "vendor": "Campus Wraps",
+    "category": "Snacks",
+    "description": "Double sausage shawarma with creamy garlic sauce and spicy chicken.",
+    "image": "images/food/shawarma.webp"
+  },
+  {
+    "id": 6,
+    "name": "Beef Burger & Fries",
+    "price": 2500,
+    "vendor": "Chippy Burger",
+    "category": "Snacks",
+    "description": "Homemade beef patty with lettuce, cheese, and a side of crispy fries.",
+    "image": "images/food/burger-fries.webp"
+  },
+  {
+    "id": 7,
+    "name": "Eba & Okro Soup",
+    "price": 1200,
+    "vendor": "Mama Put Central",
+    "category": "Swallow",
+    "description": "Yellow garri served with fresh seafood okro soup.",
+    "image": "images/food/eba-okro.webp"
+  },
+  {
+    "id": 8,
+    "name": "Fried Rice & Turkey",
+    "price": 2200,
+    "vendor": "The Buttery",
+    "category": "Rice",
+    "description": "Vegetable fried rice paired with a crispy golden fried turkey wing.",
+    "image": "images/food/fried-rice-turkey.webp"
+  },
+  {
+    "id": 9,
+    "name": "Gizdodo",
+    "price": 1200,
+    "vendor": "The Buttery",
+    "category": "Protein",
+    "description": "A delicious mix of peppered gizzard and fried plantain cubes.",
+    "image": "images/food/gizdodo.webp"
+  },
+  {
+    "id": 10,
+    "name": "Catfish Pepper Soup",
+    "price": 3000,
+    "vendor": "The Suya Spot",
+    "category": "Protein",
+    "description": "Fresh catfish in a spicy, aromatic broth with local herbs.",
+    "image": "images/food/catfish-soup.webp"
+  },
+  {
+    "id": 11,
+    "name": "Afang Soup & Fufu",
+    "price": 2000,
+    "vendor": "Mama Put Central",
+    "category": "Swallow",
+    "description": "Rich Calabar Afang soup made with waterleaf and okazi, served with fufu.",
+    "image": "images/food/afang-soup.webp"
+  },
+  {
+    "id": 12,
+    "name": "Ekpang Nkukwo",
+    "price": 2500,
+    "vendor": "The Buttery",
+    "category": "Specialty",
+    "description": "Traditional coco-yam pottage wrapped in leaves with periwinkles and dried fish.",
+    "image": "images/food/ekpang.webp"
+  },
+  {
+    "id": 13,
+    "name": "Beans & Fried Plantain",
+    "price": 1000,
+    "vendor": "Mama Put Central",
+    "category": "Rice",
+    "description": "Honey beans cooked to perfection with a side of sweet dodo.",
+    "image": "images/food/beans-dodo.webp"
+  },
+  {
+    "id": 14,
+    "name": "Spaghetti Bolognese",
+    "price": 1800,
+    "vendor": "Chippy Burger",
+    "category": "Rice",
+    "description": "Pasta tossed in a rich minced meat and tomato sauce.",
+    "image": "images/food/spag-bol.webp"
+  },
+  {
+    "id": 15,
+    "name": "Zobo Drink (50cl)",
+    "price": 400,
+    "vendor": "Campus Wraps",
+    "category": "Drinks",
+    "description": "Chilled hibiscus flower drink infused with ginger and pineapple.",
+    "image": "images/food/zobo.webp"
+  },
+  {
+    "id": 16,
+    "name": "Meat Pie",
+    "price": 500,
+    "vendor": "The Buttery",
+    "category": "Snacks",
+    "description": "Flaky pastry filled with seasoned minced meat, carrots, and potatoes.",
+    "image": "images/food/meat-pie.webp"
+  },
+  {
+    "id": 17,
+    "name": "Amala & Abula",
+    "price": 1500,
+    "vendor": "Mama Put Central",
+    "category": "Swallow",
+    "description": "Black yam flour served with Gbegiri, Ewedu, and pepper sauce.",
+    "image": "images/food/amala.webp"
+  },
+  {
+    "id": 18,
+    "name": "Club Sandwich",
+    "price": 1400,
+    "vendor": "Chippy Burger",
+    "category": "Snacks",
+    "description": "Toasted bread layers with egg, chicken, mayo, and vegetables.",
+    "image": "images/food/sandwich.webp"
+  },
+  {
+    "id": 19,
+    "name": "Moin Moin",
+    "price": 400,
+    "vendor": "Mama Put Central",
+    "category": "Protein",
+    "description": "Steamed bean pudding with eggs and fish.",
+    "image": "images/food/moin-moin.webp"
+  },
+  {
+    "id": 20,
+    "name": "Fresh Pineapple Juice",
+    "price": 700,
+    "vendor": "Campus Wraps",
+    "category": "Drinks",
+    "description": "100% freshly squeezed pineapple with no added sugar.",
+    "image": "images/food/pine-juice.webp"
+  },
+  {
+    "id": 21,
+    "name": "Asun (Peppered Goat)",
+    "price": 2500,
+    "vendor": "The Suya Spot",
+    "category": "Protein",
+    "description": "Spicy roasted goat meat chopped into bite-sized pieces.",
+    "image": "images/food/asun.webp"
+  },
+  {
+    "id": 22,
+    "name": "Puff Puff (Set of 4)",
+    "price": 400,
+    "vendor": "The Buttery",
+    "category": "Snacks",
+    "description": "Deep-fried sweet dough balls, soft and chewy.",
+    "image": "images/food/puff-puff.webp"
+  },
+  {
+    "id": 23,
+    "name": "Stir-fry Noodles",
+    "price": 1200,
+    "vendor": "Chippy Burger",
+    "category": "Rice",
+    "description": "Indomie stir-fry with mixed vegetables and a fried egg.",
+    "image": "images/food/noodles.webp"
+  },
+  {
+    "id": 24,
+    "name": "Semo & Ogbono Soup",
+    "price": 1400,
+    "vendor": "Mama Put Central",
+    "category": "Swallow",
+    "description": "Semovita served with thick, drawy Ogbono soup.",
+    "image": "images/food/semo-ogbono.webp"
+  },
+  {
+    "id": 25,
+    "name": "Grilled Fish",
+    "price": 3500,
+    "vendor": "The Suya Spot",
+    "category": "Protein",
+    "description": "Whole grilled Tilapia served with spicy sauce and chips.",
+    "image": "images/food/grilled-fish.webp"
+  },
+  {
+    "id": 26,
+    "name": "Bottled Water (75cl)",
+    "price": 200,
+    "vendor": "Campus Wraps",
+    "category": "Drinks",
+    "description": "Premium chilled table water.",
+    "image": "images/food/water.webp"
+  },
+  {
+    "id": 27,
+    "name": "Coconut Rice",
+    "price": 1500,
+    "vendor": "The Buttery",
+    "category": "Rice",
+    "description": "Rice cooked in savory coconut milk and local spices.",
+    "image": "images/food/coconut-rice.webp"
+  },
+  {
+    "id": 28,
+    "name": "Yam Pottage (Asaro)",
+    "price": 1200,
+    "vendor": "Mama Put Central",
+    "category": "Specialty",
+    "description": "Creamy yam porridge cooked in palm oil with peppers and dried crustacea.",
+    "image": "images/food/yam-pottage.webp"
+  },
+  {
+    "id": 29,
+    "name": "Chapman Drink",
+    "price": 1200,
+    "vendor": "The Buttery",
+    "category": "Drinks",
+    "description": "A classic Nigerian mocktail with Angostura bitters and fruity sodas.",
+    "image": "images/food/chapman.webp"
+  },
+  {
+    "id": 30,
+    "name": "Chicken Pie",
+    "price": 600,
+    "vendor": "The Buttery",
+    "category": "Snacks",
+    "description": "Shortcrust pastry filled with creamy chicken and vegetable filling.",
+    "image": "images/food/chicken-pie.webp"
+  }
+]

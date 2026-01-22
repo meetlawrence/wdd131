@@ -1,0 +1,66 @@
+/* Navigation for Wide Screens */
+@media (min-width: 1024px) {
+    .logo-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .logo-text {
+        display: block; /* Shows "AbegChop" and "Calabar Campus" */
+    }
+
+    /* Hide the mobile-only Menu Button */
+    .menu-button {
+        display: none !important;
+    }
+
+    /* Reposition the dropdown content to sit flat in the header */
+    .dropdown-content {
+        position: static; /* Removes the "floating" behavior */
+        display: flex !important; /* Arranges items side-by-side */
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        opacity: 1 !important;
+        pointer-events: all !important;
+        transform: none !important;
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Hide the Emojis, Descriptions, and Dividers */
+    .dropdown-emoji, 
+    .dropdown-desc, 
+    .dropdown-divider {
+        display: none !important;
+    }
+
+    /* Style the links as clean header menu items */
+    .dropdown-item {
+        padding: 0.5rem 0.25rem;
+        background: transparent !important; /* Removes the light/dark hover background */
+    }
+
+    .dropdown-title {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: white; /* Matches your logo color on the header */
+        transition: color 0.3s ease;
+    }
+
+    /* Highlight effect on hover */
+    .dropdown-item:hover .dropdown-title {
+        color: var(--accent1, #fbbf24); 
+        text-decoration: underline;
+        text-underline-offset: 8px;
+    }
+
+    /* 5. Space out the header-right elements */
+    .header-right {
+        gap: 2rem;
+    }
+}

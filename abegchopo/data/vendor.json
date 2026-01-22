@@ -1,0 +1,47 @@
+[
+  {
+    "vendorId": "v1",
+    "name": "Mama Put Central",
+    "location": "Student Union South Wing",
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "specialty": "Traditional Swallow & Rice",
+    "icon": "images/vendors/mamaput.svg"
+  },
+  {
+    "vendorId": "v2",
+    "name": "The Buttery",
+    "location": "Annex Building, Ground Floor",
+    "openTime": "07:30",
+    "closeTime": "18:00",
+    "specialty": "Pastries & Breakfast",
+    "icon": "images/vendors/buttery.svg"
+  },
+  {
+    "vendorId": "v3",
+    "name": "The Suya Spot",
+    "location": "Campus North Gate",
+    "openTime": "16:00",
+    "closeTime": "22:00",
+    "specialty": "Grilled Proteins",
+    "icon": "images/vendors/suya.svg"
+  },
+  {
+    "vendorId": "v4",
+    "name": "Campus Wraps",
+    "location": "Library Walkway",
+    "openTime": "09:00",
+    "closeTime": "19:00",
+    "specialty": "Healthy Drinks & Shawarma",
+    "icon": "images/vendors/wraps.svg"
+  },
+  {
+    "vendorId": "v5",
+    "name": "Chippy Burger",
+    "location": "Engineering Quad",
+    "openTime": "10:00",
+    "closeTime": "21:00",
+    "specialty": "Fast Food & Sides",
+    "icon": "images/vendors/chippy.svg"
+  }
+]
