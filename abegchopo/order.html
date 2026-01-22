@@ -31,7 +31,19 @@
                 </div>
             </div>
             
-            <div class="header-right">               
+            <div class="header-right">    
+                
+                <button id="cart-button" class="cart-button">
+                    <svg class="icon"><use href="images/icons/sprites.svg#icon-cart"></use></svg>
+                    <span>Cart</span>
+                    <span id="cart-count" class="cart-badge hidden">0</span>
+                </button>
+
+                <button id="theme-toggle" class="icon-button" aria-label="Toggle Theme">
+                    <svg id="theme-icon-moon" class="icon"><use href="images/icons/sprites.svg#icon-moon"></use></svg>
+                    <svg id="theme-icon-sun" class="icon hidden"><use href="images/icons/sprites.svg#icon-sun"></use></svg>
+                </button>
+                
                 <div class="menu-dropdown">
                     <button id="menu-button" class="menu-button" aria-haspopup="true" aria-expanded="false" aria-controls="menu-dropdown">
                         <svg id="menu-icon" class="icon"><use href="images/icons/sprites.svg#icon-menu"></use></svg>
@@ -88,16 +100,7 @@
                     </nav>
                 </div>
                 
-                <button id="cart-button" class="cart-button">
-                    <svg class="icon"><use href="images/icons/sprites.svg#icon-cart"></use></svg>
-                    <span>Cart</span>
-                    <span id="cart-count" class="cart-badge hidden">0</span>
-                </button>
-
-                <button id="theme-toggle" class="icon-button" aria-label="Toggle Theme">
-                    <svg id="theme-icon-moon" class="icon"><use href="images/icons/sprites.svg#icon-moon"></use></svg>
-                    <svg id="theme-icon-sun" class="icon hidden"><use href="images/icons/sprites.svg#icon-sun"></use></svg>
-                </button>
+                
             </div>
         </div>
     </header>
